@@ -16,7 +16,7 @@
   <div class="profileText">
     <p data-testid="slackUserName" class="slackUserName">Sir AMS</p>
     <p data-testid="myTrack" class="myTrack">FrontEnd</p>
-    <a href="" data-testid="githubURL">Access Stage One Task</a>
+    <a href="https://github.com/auwalMSS/zuristageone" target="_blank" data-testid="githubURL">Access Stage One Task</a>
   </div>
 </div>
 
@@ -29,13 +29,8 @@ var currentDayOfTheWeek = new Date();
 var daysOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 var currentUTCTime = new Date();
 
-
-
-
 document.getElementById("currentDayOfTheWeek").innerHTML = daysOfWeek[currentDayOfTheWeek.getDay()] ;
 document.getElementById("currentUTCTime").innerHTML = currentUTCTime.getHours() +":"+ currentUTCTime.getUTCMinutes() +":"+ currentUTCTime.getUTCSeconds() +":"+ currentUTCTime.getUTCMilliseconds() ;
-
-
 </script>
     </body>
 </html>
