@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Stage One Task - FrontEnd Track</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+    <body>
+        <div class="date">
+        <span data-testid="currentDayOfTheWeek"  id="currentDayOfTheWeek"></span> &nbsp; &nbsp;
+        <span  data-testid="currentUTCTime"  id="currentUTCTime"></span>
+        </div>
+
+<div class="profile">
+    <img src="1680849211967.jpg" alt="Sir AMS" data-testid="slackDisplayImage" class="slackDisplayImage">
+  <div class="profileText">
+    <p data-testid="slackUserName" class="slackUserName">Sir AMS</p>
+    <p data-testid="myTrack" class="myTrack">FrontEnd</p>
+    <a href="" data-testid="githubURL">Access Stage One Task</a>
+  </div>
+</div>
+
+
+
+
+
+<script>
+var currentDayOfTheWeek = new Date();
+var daysOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+var currentUTCTime = new Date();
+
+
+
+
+document.getElementById("currentDayOfTheWeek").innerHTML = daysOfWeek[currentDayOfTheWeek.getDay()] ;
+document.getElementById("currentUTCTime").innerHTML = currentUTCTime.getHours() +":"+ currentUTCTime.getUTCMinutes() +":"+ currentUTCTime.getUTCSeconds() +":"+ currentUTCTime.getUTCMilliseconds() ;
+
+
+</script>
+    </body>
+</html>

@@ -1,0 +1,39 @@
+*, html, body {
+background-color: whitesmoke;
+padding: 0;
+margin: 0;
+
+}
+
+.date {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+
+    padding: 20px;
+}
+.slackDisplayImage {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 5px solid rgb(155, 137, 199);
+}
+
+.profileText {
+    margin-left: 50px;
+    color: #000;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+.profileText .slackUserName {
+    font-size: 30px;
+    padding: 5px;
+
+}
+
+.profileText .myTrack {
+    font-size: 20px;
+    opacity: 0.9;
+    padding: 5px;
+}
